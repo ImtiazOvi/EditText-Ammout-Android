@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+    <TextView
+        android:textColor="#9C27B0"
+        android:text="Please enter amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+
+        android:id="@+id/edt_ammount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_edittext_states"
+        android:inputType="number"
+        android:maxLength="7"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_marginTop="15dp"
+        android:text="Submit"
+        android:background="#DB4A7A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
